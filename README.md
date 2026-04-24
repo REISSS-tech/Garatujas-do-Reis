@@ -1,3 +1,5 @@
+#GARATUJA ( ͡ಠ ͜ʖ ͡ಠ)
+
 Anotações – Programação (1º trimestre)
 Webdesign (revisão)
 
@@ -50,10 +52,6 @@ validação
 
 resumo:
 js = interatividade
-
-Projeto site (perfil)
-
-versão prof:
 
 simples
 organizado
