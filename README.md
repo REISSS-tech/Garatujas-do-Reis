@@ -1,223 +1,301 @@
-#GARATUJA ( ͡ಠ ͜ʖ ͡ಠ)
+# GARATUJA ( ͡ಠ ͜ʖ ͡ಠ)
 
-Anotações – Programação (1º trimestre)
-Webdesign (revisão)
+# Anotações – Programação (1º trimestre)
 
-webdesign = criação visual de sites
+---
 
-importante:
+# Webdesign (revisão)
 
-layout (organização)
-cores + fontes
-responsivo (cel + pc)
-usabilidade (fácil de usar)
-HTML (eu do futuro)
+**Webdesign** = criação visual de sites
 
-html = estrutura do site
+## Importante
 
-usa:
+* Layout (organização)
+* Cores + fontes
+* Responsivo (celular + PC)
+* Usabilidade (fácil de usar)
 
-h1 → título
-p → texto
-img → imagem
-a → link
+---
 
-obs:
-não é linguagem de programação
+# HTML *(eu do futuro)*
 
-CSS (eu do futuro)
+**HTML** = estrutura do site
 
-css = estilo do site
+## Usa
 
-faz:
+* `h1` → título
+* `p` → texto
+* `img` → imagem
+* `a` → link
 
-cores
-tamanhos
-fontes
-layout (flex, grid)
+## Obs
 
-resumo:
-html = base
-css = beleza
+* Não é linguagem de programação
 
-JS (eu do futuro)
+---
 
-js = comportamento do site
+# CSS *(eu do futuro)*
 
-faz:
+**CSS** = estilo do site
 
-clique botão
-animação
-validação
+## Faz
 
-resumo:
-js = interatividade
+* Cores
+* Tamanhos
+* Fontes
+* Layout (`flex`, `grid`)
 
-simples
-organizado
-básico funcionando
+## Resumo
 
-versão pessoal:
+* HTML = base
+* CSS = beleza
 
-mais bonito
-estilo próprio
-mais info
-criatividade
+---
 
-diferença:
-prof = básico certo
-pessoal = completo + estilizado
+# JS *(eu do futuro)*
 
-Java vs JS vs TS
+**JS** = comportamento do site
 
-Java:
+## Faz
 
-linguagem forte
-backend / apps
-compilada
+* Clique em botão
+* Animação
+* Validação
 
-JS:
+## Resumo
 
-web
-roda no navegador
+* JS = interatividade
 
-TS:
+---
 
-JS melhorado
-tem tipos (mais seguro)
+# Projeto
 
-resumo:
-java ≠ javascript
-ts = js com tipo
+## Simples
 
-POO (programação orientada a objetos)
-oq é
+* Organizado
+* Básico funcionando
 
-programar usando objetos
+## Versão pessoal
 
-vantagens:
+* Mais bonito
+* Estilo próprio
+* Mais informações
+* Criatividade
 
-organização
-reutilização
-fácil manutenção
-classe
+## Diferença
 
-molde (modelo)
+* Professor = básico certo
+* Pessoal = completo + estilizado
 
-objeto
+---
 
-instância da classe
+# Java vs JS vs TS
 
-ex:
-classe carro → meuCarro
+## Java
 
-atributo
+* Linguagem forte
+* Backend / apps
+* Compilada
 
-dados do objeto
+## JS
 
-ex:
-cor, nome, idade
+* Web
+* Roda no navegador
 
-método
+## TS
 
-ação do objeto
+* JS melhorado
+* Tem tipos (mais seguro)
 
-ex:
-andar(), falar()
+## Resumo
 
-this
+* Java ≠ JavaScript
+* TS = JS com tipos
 
-this = objeto atual
+---
 
-não usa nome tipo a, b, c
-sempre usa this
+# POO (Programação Orientada a Objetos)
 
-construtor
+## O que é
 
-roda quando cria objeto
+Programar usando objetos
 
-serve pra:
+## Vantagens
 
-iniciar valores
+* Organização
+* Reutilização
+* Fácil manutenção
 
-resumo:
-obj já nasce pronto
+---
 
-herança
+# Classe
 
-uma classe herda da outra
+**Classe** = molde (modelo)
 
-ex:
-animal → cachorro
+---
 
-vantagem:
-reaproveita código
+# Objeto
 
-encapsulamento
+**Objeto** = instância da classe
 
-proteger dados
+### Exemplo
 
-usa:
+`Classe Carro → meuCarro`
 
-public → tudo acessa
-private → só classe
-protected → classe + filhas
+---
 
-resumo:
-não deixar bagunçar os dados
+# Atributo
 
-getters e setters
+Dados do objeto
 
-getter:
-pega valor
+### Exemplo
 
-setter:
-altera valor com regra
+* Cor
+* Nome
+* Idade
 
-vantagem:
-controle total
+---
 
-get / set (forma moderna)
+# Método
 
-parece atributo normal
+Ação do objeto
 
-ex:
+### Exemplo
+
+* `andar()`
+* `falar()`
+
+---
+
+# This
+
+`this` = objeto atual
+
+## Importante
+
+* Não usar nomes genéricos tipo `a`, `b`, `c`
+* Sempre usar `this`
+
+---
+
+# Construtor
+
+Roda quando cria o objeto
+
+## Serve para
+
+* Iniciar valores
+
+## Resumo
+
+* O objeto já nasce pronto
+
+---
+
+# Herança
+
+Uma classe herda da outra
+
+### Exemplo
+
+`Animal → Cachorro`
+
+## Vantagem
+
+* Reaproveita código
+
+---
+
+# Encapsulamento
+
+Proteger dados
+
+## Usa
+
+* `public` → tudo acessa
+* `private` → só a classe
+* `protected` → classe + filhas
+
+## Resumo
+
+* Não deixar bagunçar os dados
+
+---
+
+# Getters e Setters
+
+## Getter
+
+* Pega valor
+
+## Setter
+
+* Altera valor com regra
+
+## Vantagem
+
+* Controle total
+
+---
+
+# Get / Set *(forma moderna)*
+
+Parece atributo normal
+
+### Exemplo
+
+```js
 obj.nome
+```
 
-mas por trás tem validação
+Mas por trás existe validação
 
-polimorfismo
+---
 
-mesmo método, comportamentos diferentes
+# Polimorfismo
 
-ex:
-calcularArea() muda dependendo da forma
+Mesmo método, comportamentos diferentes
 
-resumo:
-mesmo nome → resultado diferente
+### Exemplo
 
-static
+`calcularArea()` muda dependendo da forma
 
-pertence à classe
+## Resumo
 
-não precisa criar objeto
+* Mesmo nome → resultado diferente
 
-uso:
+---
+
+# Static
+
+Pertence à classe
+
+## Importante
+
+* Não precisa criar objeto
+
+## Uso
+
+```js
 Classe.metodo()
+```
 
-resumo:
-não usa this
+## Resumo
 
-revisão final (decorar)
+* Não usa `this`
 
-classe → molde
-objeto → instância
-atributo → dado
-método → ação
-this → objeto atual
-construtor → inicia
-herança → herda
-encapsulamento → protege
-getter/setter → controla
-polimorfismo → muda comportamento
-static → classe
+---
+
+# Revisão Final (decorar)
+
+* Classe → molde
+* Objeto → instância
+* Atributo → dado
+* Método → ação
+* `this` → objeto atual
+* Construtor → inicia valores
+* Herança → herda
+* Encapsulamento → protege
+* Getter / Setter → controla
+* Polimorfismo → muda comportamento
+* `static` → pertence à classe
